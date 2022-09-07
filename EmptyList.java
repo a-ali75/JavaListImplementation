@@ -9,12 +9,12 @@ public class EmptyList implements LispList{
 
     @Override
     public Object head() {
-        throw new UnsupportedOperationException("Empty Method doesn't support this method");
+        throw new UnsupportedOperationException("Empty List doesn't support this method");
     }
 
     @Override
     public LispList tail() {
-        throw new UnsupportedOperationException("Empty Method doesn't support this method");
+        throw new UnsupportedOperationException("Empty List doesn't support this method");
     }
 
     @Override
